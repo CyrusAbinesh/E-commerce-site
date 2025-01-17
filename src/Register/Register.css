@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(135deg, #ADD8E6, #9370DB); /* Blue to Purple Gradient */
+}
+.cute{
+  margin-top: 40px;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #4B0082; /* Dark Purple Border */
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  background-color: #E6E6FA; /* Lavender */
+  max-width: 400px;
+  margin: auto;
+}
+.form-control {
+  border: 2px solid #9370DB; /* Light Purple Border */
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+.form-control:focus {
+  box-shadow: 0 0 5px rgba(147, 112, 219, 0.5); /* Light Purple Focus */
+  border-color: #4B0082; /* Dark Purple Focus */
+}
+.btn-primary {
+  width: 100%; 
+  background-color: #FF69B4; /* Pink Button */
+  border-color: #C71585; /* Dark Pink Border */
+  margin-top: 10px; 
+  transition: background-color 0.3s;
+}
+.btn-primary:hover {
+  background-color: #C71585; /* Dark Pink Hover */
+}
+.form-label {
+  font-weight: bold;
+  color: #4B0082; /* Dark Purple Labels */
+}
+.register-link {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #4B0082; /* Dark Purple Link */
+}
+.register-link:hover {
+  text-decoration: underline;
+}
+h2 {
+  color: #4B0082; /* Dark Purple Heading */
+  margin-bottom: 20px;
+}

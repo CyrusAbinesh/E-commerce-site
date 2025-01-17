@@ -1,0 +1,76 @@
+.vibrant-navbar {
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6, #a78bfa, #7dd3fc); /* Blue to Violet Gradient */
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+  }
+  
+  .vibrant-brand {
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+  }
+  
+  .vibrant-brand:hover {
+    color: #d8b4fe; /* Soft violet hover effect */
+  }
+  
+  .vibrant-link {
+    color: #ffffff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .vibrant-link:hover {
+    color: #c084fc; /* Soft violet hover */
+  }
+  
+  .profile-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 8px;
+    border: 2px solid #ffffff; /* White border for distinction */
+  }
+  
+  .vibrant-dropdown {
+    background-color: #4c51bf; /* Deep Violet for Dropdown */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Soft shadow */
+  }
+  
+  .dropdown-item {
+    color: #ffffff;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #8b5cf6; /* Vibrant Violet on hover */
+    color: #ffffff;
+  }
+  
+  .vibrant-input {
+    border: 2px solid #d8b4fe; /* Violet border for search */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    transition: border 0.3s ease;
+  }
+  
+  .vibrant-input:focus {
+    border-color: #8b5cf6; /* Violet border on focus */
+  }
+  
+  .vibrant-btn {
+    background-color: #60a5fa; /* Light Blue for Button */
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .vibrant-btn:hover {
+    background-color: #3b82f6; /* Deep Blue on hover */
+    color: #ffffff;
+  }
+  
